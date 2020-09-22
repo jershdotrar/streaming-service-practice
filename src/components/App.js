@@ -11,7 +11,7 @@ import Header from './Header';
 // <Header/> must go inside <BrowserRouter/> to use <Link/>
 const App = () => {
   return (
-    <div>
+    <div className="ui container">
       <BrowserRouter>
         <div>
           <Header />

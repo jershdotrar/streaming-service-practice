@@ -67,17 +67,13 @@ export class GoogleAuth extends Component {
 
   // punt this bad boy on outta here!
   render() {
-    return (
-      <div>
-        {this.renderAuthButton()}
-      </div>
-    );
+    return <div>{this.renderAuthButton()}</div>;
   }
 }
 
 const mapStateToProps = (state) => {
   return { isSignedIn: state.auth.isSignedIn };
-}
+};
 
 export default connect(
   mapStateToProps,

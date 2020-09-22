@@ -15,7 +15,7 @@ function Header() {
         <GoogleAuth />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Header;
