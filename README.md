@@ -1,0 +1,1 @@
+## this is a practice streaming RESTful web app featuring React, Redux, Google OAuth, and more.
